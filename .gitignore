@@ -37,6 +37,6 @@ build/
 ### nacos ###
 /nacos/local/bin/logs/
 /nacos/local/bin/work/
-/nacos/local/bin/derby
+/nacos/local/bin/derby.log
 /nacos/local/data/
 /nacos/local/logs/
