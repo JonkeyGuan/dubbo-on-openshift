@@ -33,3 +33,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### nacos ###
+/nacos/local/bin/logs/
+/nacos/local/bin/work/
+/nacos/local/bin/derby
+/nacos/local/data/
+/nacos/local/logs/
