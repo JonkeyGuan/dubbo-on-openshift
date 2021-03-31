@@ -3,6 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+!nacos-server.jar
 
 **/.DS_Store
 
@@ -40,4 +41,3 @@ build/
 /nacos-server/local/bin/derby.log
 /nacos-server/local/data/
 /nacos-server/local/logs/
-!/nacos-server/loca/target/*.jar
