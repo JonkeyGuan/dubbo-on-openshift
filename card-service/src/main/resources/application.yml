@@ -1,0 +1,22 @@
+spring:
+  application.name: card-service
+  profiles.active: local
+
+logging.level.org.apache.dubbo: warn
+
+nacos:
+  server-address: localhost
+  port: 8848
+  username: nacos
+  password: nacos
+
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20883
+  registry.address: nacos://${nacos.server-address}:${nacos.port}/?username=${nacos.username}&password=${nacos.password}
+
+---
+spring.config.activate.on-profile: openshift
+nacos:
+  server-address: ${nacos.server.address}
