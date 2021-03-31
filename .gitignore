@@ -35,8 +35,8 @@ build/
 .vscode/
 
 ### nacos ###
-/nacos/local/bin/logs/
-/nacos/local/bin/work/
-/nacos/local/bin/derby.log
-/nacos/local/data/
-/nacos/local/logs/
+/nacos-server/local/bin/logs/
+/nacos-server/local/bin/work/
+/nacos-server/local/bin/derby.log
+/nacos-server/local/data/
+/nacos-server/local/logs/
