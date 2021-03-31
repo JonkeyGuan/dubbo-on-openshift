@@ -40,4 +40,4 @@ build/
 /nacos-server/local/bin/derby.log
 /nacos-server/local/data/
 /nacos-server/local/logs/
-/nacos-server/loca/target/
+!/nacos-server/loca/target/
